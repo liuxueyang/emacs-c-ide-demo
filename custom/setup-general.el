@@ -46,6 +46,11 @@
   (projectile-global-mode)
   (setq projectile-enable-caching t))
 
+;; function-args
+(use-package function-args
+  :init
+  (fa-config-default))
+
 ;; Package zygospore
 (use-package zygospore
   :bind (("C-x 1" . zygospore-toggle-delete-other-windows)
