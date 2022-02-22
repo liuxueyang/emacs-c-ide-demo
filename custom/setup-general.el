@@ -51,6 +51,8 @@
   :init
   (fa-config-default))
 
+(use-package magit)
+
 ;; Package zygospore
 (use-package zygospore
   :bind (("C-x 1" . zygospore-toggle-delete-other-windows)
